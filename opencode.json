@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "siliconflow": {
+      "name": "SiliconFlow",
+      "options": {
+        "baseURL": "https://api.siliconflow.cn/v1"
+      },
+      "models": {
+        "default": {
+          "name": "deepseek-ai/DeepSeek-V2-Chat"
+        }
+      }
+    }
+  }
+}

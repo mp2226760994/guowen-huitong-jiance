@@ -1,0 +1,7 @@
+.app {
+  --adm-color-primary: #1890ff;
+}
+
+.adm-tab-bar {
+  border-top: 1px solid #eee;
+}

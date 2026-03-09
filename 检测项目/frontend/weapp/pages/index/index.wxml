@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="header">
+    <view class="title">国文汇通检测</view>
+    <view class="subtitle">每日成交数据监控</view>
+  </view>
+
+  <view class="stats-card">
+    <view class="stat-item">
+      <view class="stat-value">{{dailyStats.totalCount}}</view>
+      <view class="stat-label">今日成交单量</view>
+    </view>
+    <view class="stat-item">
+      <view class="stat-value">{{dailyStats.totalAmount}}</view>
+      <view class="stat-label">成交总额</view>
+    </view>
+    <view class="stat-item">
+      <view class="stat-value">{{dailyStats.avgPrice}}</view>
+      <view class="stat-label">平均单价</view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">小时成交量</view>
+    <ec-canvas id="chart" canvas-id="chart" ec="{{ chartEc }}"></ec-canvas>
+  </view>
+</view>
