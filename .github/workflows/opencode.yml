@@ -30,5 +30,5 @@ jobs:
           OPENAI_BASE_URL: https://api.siliconflow.cn/v1
           GITHUB_TOKEN: ${{ github.token }}
         with:
-          model: Qwen/Qwen2.5-7B-Instruct
+          model: deepseek-ai/DeepSeek-V2-Chat
           github_token: ${{ github.token }}
